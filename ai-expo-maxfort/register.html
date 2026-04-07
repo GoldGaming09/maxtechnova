@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register - AI Expo Maxfort</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <nav class="container">
+      <ul>
+        <li><a href="index.html#home">Home</a></li>
+        <li><a href="register.html#register">Register</a></li>
+        <li><a href="questions.html">Questions</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="register" class="committees" style="padding-top: 6rem;">
+    <div class="container">
+      <h2>Register to Participate</h2>
+      <p style="text-align: center; max-width: 600px; margin: 0 auto 3rem;">Fill your details to get started. Our committee heads will reach out to help you join.</p>
+      <form class="register-form" style="max-width: 500px; margin: 0 auto;">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" required>
+        
+        <label for="whatsapp">WhatsApp Number</label>
+        <input type="tel" id="whatsapp" placeholder="+91 1234567890" required>
+        
+        <label for="email">Email ID</label>
+        <input type="email" id="email" required>
+        
+        <button type="submit" class="cta-btn" style="width: 100%; margin-top: 1rem;">Next: Choose Committees</button>
+      </form>
+      
+      <div class="committees-selection" style="display: none; max-width: 500px; margin: 2rem auto; text-align: center;">
+        <h2>Choose Your Committees</h2>
+        <form class="committees-form">
+          <div class="committees-list">
+            <label class="committee-option">
+              <input type="checkbox" name="committee" value="Hackathon"> Hackathon
+            </label>
+            <label class="committee-option">
+              <input type="checkbox" name="committee" value="Tech Talk"> Tech Talk
+            </label>
+            <label class="committee-option">
+              <input type="checkbox" name="committee" value="Gaming"> Gaming
+            </label>
+            <label class="committee-option">
+              <input type="checkbox" name="committee" value="Social Club"> Social Club
+            </label>
+            <label class="committee-option">
+              <input type="checkbox" name="committee" value="VR"> VR
+            </label>
+          </div>
+          <button type="submit" class="cta-btn" style="width: 100%; margin-top: 2rem;">Submit Registration</button>
+        </form>
+      </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 AI Expo Maxfort School Rohini. Questions? <a href="questions.html" style="color: #3b82f6;">Ask here</a> or email <a href="mailto:yoyoyoakshat09@gmail.com" style="color: #3b82f6;">yoyoyoakshat09@gmail.com</a></p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
